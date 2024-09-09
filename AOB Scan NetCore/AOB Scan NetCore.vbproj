@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AOBScan</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>Sub Main</StartupObject>
+    <ApplicationIcon>memory_slot_64px.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Principal.Windows" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

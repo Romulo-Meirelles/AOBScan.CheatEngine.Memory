@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Romulo Meirelles\\Documents\\Visual Studio 2010\\Projects\\AOB Scan\\AOB Scan NetCore\\AOB Scan NetCore.vbproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Romulo Meirelles\\Documents\\Visual Studio 2010\\Projects\\AOB Scan\\AOB Scan NetCore\\AOB Scan NetCore.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Romulo Meirelles\\Documents\\Visual Studio 2010\\Projects\\AOB Scan\\AOB Scan NetCore\\AOB Scan NetCore.vbproj",
+        "projectName": "AOB Scan NetCore",
+        "projectPath": "C:\\Users\\Romulo Meirelles\\Documents\\Visual Studio 2010\\Projects\\AOB Scan\\AOB Scan NetCore\\AOB Scan NetCore.vbproj",
+        "packagesPath": "C:\\Users\\Romulo Meirelles\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Romulo Meirelles\\Documents\\Visual Studio 2010\\Projects\\AOB Scan\\AOB Scan NetCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Romulo Meirelles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.nuget.org/v1/FeedService.svc/": {},
+          "https://www.nuget.org/api/v1/": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Security.Principal.Windows": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x86",
+              "version": "[3.1.31, 3.1.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.111\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
