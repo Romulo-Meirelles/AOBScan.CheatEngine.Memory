@@ -48,8 +48,10 @@ Dim ListInt As List(Of String) = Game.AOBScanListStr("48 6F 6C 79 53 69 67 6E 61
 'REPLACES AN ARRAY OF BYTES WITH ANOTHER ARRAY OF BYTES.
 Dim Replace As IntPtr = Game.ReplaceBytesByte("48 6F 6C ?? ?? 69 67 6E 61 6C", "FF FF 6C 79 53 69 67 6E 61 6C")
 
-READ A SPECIFIC ITEM IN MEMORY USING POINTER AND OFFSETS.
-Dim ReadStr As String = Game.CEReadMemoryStr("Tutorial-i386.exe + 00242720", "750-C-14-14-274-34-76C", 100)
+'READ A SPECIFIC ITEM IN MEMORY USING POINTER AND OFFSETS.
+Dim ReadStr0 As String = Game.CEReadMemoryStr("Tutorial-i386.exe + 00242720", "750 C 14 14 274 34 76C", 100)
+Dim ReadStr1 As String = Game.CEReadMemoryStr("Tutorial-i386.exe + 00242720", "750, C, 14, 14, 274, 34, 76C", 100)
+Dim ReadStr2 As String = Game.CEReadMemoryStr("Tutorial-i386.exe + 00242720", "750-C-14-14-274-34-76C", 100)
 Dim ReadInt As Integer = Game.CEReadMemoryInt("Tutorial-i386.exe + 00242720", {&H750, &HC, &H14, &H14, &H274, &H34, &H76C}, 100)
 Dim ReadDouble As Double = Game.CEReadMemoryDouble("Tutorial-i386.exe + 00242720", {&H750, &HC, &H14, &H14, &H274, &H34, &H76C}, 100)
 Dim ReadFloat As Single = Game.CEReadMemoryFloat(&H00242720, {&H750, &HC, &H14, &H14, &H274, &H34, &H76C}, 100)
